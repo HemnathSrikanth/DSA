@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 
 void ReversedArray(int arr[],int n)
 {
@@ -18,6 +18,6 @@ int main()
     ReversedArray(arr,n);
     for (int i=0;i<n;i++)
     {
-        printf("%d ",arr[i]);
+        std::cout<<arr[i]<<" ";
     }
 }
